@@ -100,7 +100,7 @@ export default function Topbar({ user, onMenu }: { user: DashboardUser; onMenu: 
         </div>
 
         <Link
-          href="/dashboard/workflows"
+          href="/dashboard/workflows?new=1"
           className="hidden h-10 items-center gap-2 rounded-xl bg-white px-4 text-sm font-semibold text-black transition hover:bg-white/90 sm:inline-flex"
         >
           <Plus className="size-4" />

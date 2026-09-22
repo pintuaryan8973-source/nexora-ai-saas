@@ -23,14 +23,14 @@ import type { DashboardUser } from "@/components/DashboardShell";
 const primary = [
   { label: "Overview", href: "/dashboard", icon: LayoutDashboard },
   { label: "AI Copilot", href: "/dashboard/copilot", icon: Bot, badge: "AI" },
-  { label: "Workflows", href: "/dashboard/workflows", icon: Workflow, badge: "12" },
+  { label: "Workflows", href: "/dashboard/workflows", icon: Workflow },
   { label: "Automations", href: "/dashboard/automations", icon: Zap },
   { label: "Projects", href: "/dashboard/projects", icon: FolderKanban },
 ];
 
 const workspace = [
   { label: "Analytics", href: "/dashboard/analytics", icon: BarChart3 },
-  { label: "Integrations", href: "/dashboard/integrations", icon: Plug, badge: "4" },
+  { label: "Integrations", href: "/dashboard/integrations", icon: Plug },
   { label: "Team", href: "/dashboard/team", icon: Users },
 ];
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight, Bot, PlugZap, Plus, UserPlus } from "lucide-react";
 
 const actions = [
-  { label: "New workflow", text: "Automate a repeated task", href: "/dashboard/workflows", icon: Plus },
+  { label: "New workflow", text: "Automate a repeated task", href: "/dashboard/workflows?new=1", icon: Plus },
   { label: "Ask Nexora AI", text: "Start a copilot session", href: "/dashboard/copilot", icon: Bot },
   { label: "Connect app", text: "Add a new integration", href: "/dashboard/integrations", icon: PlugZap },
   { label: "Invite member", text: "Grow your workspace", href: "/dashboard/team", icon: UserPlus },
